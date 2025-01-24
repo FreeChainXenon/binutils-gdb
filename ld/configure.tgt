@@ -316,6 +316,8 @@ dlx-*-elf*)		targ_emul=elf32_dlx
 epiphany-*-*)		targ_emul=elf32epiphany
 			targ_extra_emuls="elf32epiphany_4x4"
 			;;
+*-fcx-*)		targ_emul=elf32ppc
+			;;
 fido*-*-elf*)		targ_emul=m68kelf
 			;;
 fr30-*-*)		targ_emul=elf32fr30

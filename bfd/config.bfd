@@ -512,6 +512,10 @@ case "${targ}" in
     targ_underscore=yes
     ;;
 
+  *-fcx-*)
+    targ_defvec=powerpc_elf32_vec
+    ;;
+
   fido-*-elf* )
     targ_defvec=m68k_elf32_vec
     ;;
