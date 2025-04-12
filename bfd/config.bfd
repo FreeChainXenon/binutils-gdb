@@ -514,7 +514,6 @@ case "${targ}" in
 
   *-fcx-*)
     targ_defvec=powerpc_elf32_vec
-    targ_selvecs=powerpc_elf64_vec
     ;;
 
   fido-*-elf* )
